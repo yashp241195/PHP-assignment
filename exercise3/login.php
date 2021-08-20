@@ -40,6 +40,7 @@ $conn->close();
 
 <html>
 <body>
+<br/> Login Now <br/>
 
 <form method="post" action="<?php echo $_SERVER[‘PHP_SELF’]; ?>" >
 Username: <input type="text" name="username"><br>
