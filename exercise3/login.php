@@ -31,7 +31,7 @@ while($row = mysqli_fetch_assoc($result)){
     $count++;
 }
 
-echo ($count == 0)?"user not found":"user found";
+echo ($count == 0)?"login failed, user not found":"Welcome User, login successful";
 
 $conn->close();
 
